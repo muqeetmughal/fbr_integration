@@ -237,3 +237,17 @@ doc_events = {
 # auth_hooks = [
 # 	"fbr_integration.auth.validate"
 # ]
+
+
+fixtures = [
+    "HS Code",
+    "Invoice Type",
+    "Sale Type",
+    "Scenario ID",
+    "Tax Payer Type",
+    "SRO Schedule No",
+    "SRO Item SNo",
+    "FBR UoM",
+    "Buyer Province",
+    
+    ]

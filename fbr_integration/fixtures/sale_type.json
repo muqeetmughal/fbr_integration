@@ -1,137 +1,184 @@
 [
-  {
-    "doctype": "Sale Type",
-    "name": "Goods at standard rate (default)",
-    "Sale Type": "Goods at standard rate (default)"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Goods at Reduced Rate",
-    "Sale Type": "Goods at Reduced Rate"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Goods at zero-rate",
-    "Sale Type": "Goods at zero-rate"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Petroleum Products",
-    "Sale Type": "Petroleum Products"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Electricity Supply to Retailers",
-    "Sale Type": "Electricity Supply to Retailers"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "SIM",
-    "Sale Type": "SIM"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Gas to CNG stations",
-    "Sale Type": "Gas to CNG stations"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Mobile Phones",
-    "Sale Type": "Mobile Phones"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Rerollable scrap by ship breakers",
-    "Sale Type": "Rerollable scrap by ship breakers"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Processing/Conversion of Goods",
-    "Sale Type": "Processing/Conversion of Goods"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "3rd Schedule Goods",
-    "Sale Type": "3rd Schedule Goods"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Goods (FED in ST Mode)",
-    "Sale Type": "Goods (FED in ST Mode)"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Services (FED in ST Mode)",
-    "Sale Type": "Services (FED in ST Mode)"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Services",
-    "Sale Type": "Services"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Exempt goods",
-    "Sale Type": "Exempt goods"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "DTRE goods",
-    "Sale Type": "DTRE goods"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Cotton ginners",
-    "Sale Type": "Cotton ginners"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Electric Vehicle",
-    "Sale Type": "Electric Vehicle"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Cement /Concrete Block",
-    "Sale Type": "Cement /Concrete Block"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Telecommunication services",
-    "Sale Type": "Telecommunication services"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Steel melting and re-rolling",
-    "Sale Type": "Steel melting and re-rolling"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Ship breaking",
-    "Sale Type": "Ship breaking"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Potassium Chlorate",
-    "Sale Type": "Potassium Chlorate"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Non-Adjustable Supplies",
-    "Sale Type": "Non-Adjustable Supplies"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Goods as per SRO.297(|)/2023",
-    "Sale Type": "Goods as per SRO.297(|)/2023"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "CNG Sales",
-    "Sale Type": "CNG Sales"
-  },
-  {
-    "doctype": "Sale Type",
-    "name": "Toll Manufacturing",
-    "Sale Type": "Toll Manufacturing"
-  }
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:17.972504",
+  "name": "Goods at standard rate (default)",
+  "sale_type": "Goods at standard rate (default)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.747118",
+  "name": "Goods at Reduced Rate",
+  "sale_type": "Goods at Reduced Rate"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.752446",
+  "name": "Goods at zero-rate",
+  "sale_type": "Goods at zero-rate"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.774272",
+  "name": "Petroleum Products",
+  "sale_type": "Petroleum Products"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.779073",
+  "name": "Electricity Supply to Retailers",
+  "sale_type": "Electricity Supply to Retailers"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.784135",
+  "name": "SIM",
+  "sale_type": "SIM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.788988",
+  "name": "Gas to CNG stations",
+  "sale_type": "Gas to CNG stations"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.797177",
+  "name": "Mobile Phones",
+  "sale_type": "Mobile Phones"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.801933",
+  "name": "Processing/Conversion of Goods",
+  "sale_type": "Processing/Conversion of Goods"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.822467",
+  "name": "3rd Schedule Goods",
+  "sale_type": "3rd Schedule Goods"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.827019",
+  "name": "Goods (FED in ST Mode)",
+  "sale_type": "Goods (FED in ST Mode)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.831315",
+  "name": "Services (FED in ST Mode)",
+  "sale_type": "Services (FED in ST Mode)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.835436",
+  "name": "Services",
+  "sale_type": "Services"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.840252",
+  "name": "Exempt goods",
+  "sale_type": "Exempt goods"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.844604",
+  "name": "DTRE goods",
+  "sale_type": "DTRE goods"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.849872",
+  "name": "Cotton ginners",
+  "sale_type": "Cotton ginners"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.870882",
+  "name": "Electric Vehicle",
+  "sale_type": "Electric Vehicle"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.875677",
+  "name": "Cement /Concrete Block",
+  "sale_type": "Cement /Concrete Block"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.880250",
+  "name": "Telecommunication services",
+  "sale_type": "Telecommunication services"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.884967",
+  "name": "Steel melting and re-rolling",
+  "sale_type": "Steel melting and re-rolling"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.890890",
+  "name": "Ship breaking",
+  "sale_type": "Ship breaking"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.895535",
+  "name": "Potassium Chlorate",
+  "sale_type": "Potassium Chlorate"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.899862",
+  "name": "CNG Sales",
+  "sale_type": "CNG Sales"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.920895",
+  "name": "Toll Manufacturing",
+  "sale_type": "Toll Manufacturing"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.925320",
+  "name": "Non-Adjustable Supplies",
+  "sale_type": "Non-Adjustable Supplies"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Sale Type",
+  "modified": "2026-05-05 01:05:18.929917",
+  "name": "Goods as per SRO.297(|)/2023",
+  "sale_type": "Goods as per SRO.297(|)/2023"
+ }
 ]
