@@ -2,49 +2,49 @@
  {
   "buyer_province": "BALOCHISTAN",
   "docstatus": 0,
-  "doctype": "Buyer Province",
+  "doctype": "FBR Province",
   "modified": "2026-05-05 00:40:40.550429",
   "name": "BALOCHISTAN"
  },
  {
   "buyer_province": "AZAD JAMMU AND KASHMIR",
   "docstatus": 0,
-  "doctype": "Buyer Province",
+  "doctype": "FBR Province",
   "modified": "2026-05-05 00:40:40.750631",
   "name": "AZAD JAMMU AND KASHMIR"
  },
  {
   "buyer_province": "CAPITAL TERRITORY",
   "docstatus": 0,
-  "doctype": "Buyer Province",
+  "doctype": "FBR Province",
   "modified": "2026-05-05 00:40:40.753114",
   "name": "CAPITAL TERRITORY"
  },
  {
   "buyer_province": "KHYBER PAKHTUNKHWA",
   "docstatus": 0,
-  "doctype": "Buyer Province",
+  "doctype": "FBR Province",
   "modified": "2026-05-05 00:40:40.755529",
   "name": "KHYBER PAKHTUNKHWA"
  },
  {
   "buyer_province": "PUNJAB",
   "docstatus": 0,
-  "doctype": "Buyer Province",
+  "doctype": "FBR Province",
   "modified": "2026-05-05 00:40:40.758036",
   "name": "PUNJAB"
  },
  {
   "buyer_province": "SINDH",
   "docstatus": 0,
-  "doctype": "Buyer Province",
+  "doctype": "FBR Province",
   "modified": "2026-05-05 00:40:40.760387",
   "name": "SINDH"
  },
  {
   "buyer_province": "GILGIT BALTISTAN",
   "docstatus": 0,
-  "doctype": "Buyer Province",
+  "doctype": "FBR Province",
   "modified": "2026-05-05 00:40:40.762469",
   "name": "GILGIT BALTISTAN"
  }

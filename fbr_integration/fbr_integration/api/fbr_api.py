@@ -78,6 +78,7 @@ def get_address_details(address_name):
 
 
 def build_fbr_payload(doc):
+    settings = frappe.get_cached_doc("FBR Invoice Settings")
     seller_address, seller_province = get_address_details(
         getattr(doc, "company_address", None)
     )
@@ -89,7 +90,7 @@ def build_fbr_payload(doc):
     if not buyer_province:
         buyer_province = doc.get("fbr_buyer_province") or ""
 
-
+    fbr_tax_payer_type = doc.get("fbr_tax_payer_type") or "Unregistered"
     items_list = []
     # print("doc.items", doc.items)
 
@@ -129,17 +130,17 @@ def build_fbr_payload(doc):
     return {
         "invoiceType": doc.fbr_invoice_type or "",
         "invoiceDate": str(doc.posting_date),
-        "sellerNTNCNIC": doc.company_tax_id or "3520262991913",
+        "sellerNTNCNIC": settings.company_tax_id or "",
         "sellerBusinessName": doc.company or "",
         "sellerAddress": seller_address,
-        "sellerProvince": seller_province or "Punjab",
+        "sellerProvince": settings.seller_province or "",
         "buyerNTNCNIC": doc.tax_id or "",
         "buyerBusinessName": doc.customer or "",
         "buyerAddress": buyer_address,
         "buyerProvince": buyer_province,
         "invoiceRefNo": doc.name,
         "scenarioId": doc.fbr_scenario_id or "",
-        "buyerRegistrationType": doc.fbr_tax_payer_type or "Unregistered",
+        "buyerRegistrationType": fbr_tax_payer_type,
         "items": items_list,
     }
 
