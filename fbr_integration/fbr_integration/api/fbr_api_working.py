@@ -86,12 +86,8 @@ def build_fbr_payload(doc):
         getattr(doc, "customer_address", None)
     )
 
-    if not buyer_province:
-        buyer_province = doc.get("fbr_buyer_province") or ""
-
-
     items_list = []
-    # print("doc.items", doc.items)
+    print("doc.items", doc.items)
 
     for item in doc.items:
         sale_type_str = str(item.fbr_sale_type or "").lower().replace(" ", "")
@@ -100,16 +96,16 @@ def build_fbr_payload(doc):
             rate_val = "Exempt"
         else:
             rate_val = "{:.2f}%".format(safe_float(item.fbr_sales_tax_rate))
-            # rate_val = "18%"
+            rate_val = "18%"
         
         items_list.append(
             {
-                "hsCode": item.fbr_hs_code or "",
-                # "hsCode": "3306.1010" or "",
+                # "hsCode": item.fbr_hs_code or "",
+                "hsCode": "3306.1010" or "",
                 "productDescription": item.item_name or "",
                 "rate": rate_val,
-                # "uoM": "Numbers, pieces, units",
-                "uoM": item.fbr_fbr_uom or "",
+                "uoM": "Numbers, pieces, units",
+                # "uoM": item.fbr_fbr_uom or "",
                 "quantity": safe_float(item.qty),
                 "totalValues": safe_float(item.fbr_tax_inclusive_amount),
                 "valueSalesExcludingST": safe_float(item.amount),
@@ -121,7 +117,7 @@ def build_fbr_payload(doc):
                 "sroScheduleNo": item.fbr_sro_schedule_no or "",
                 "fedPayable": 0,
                 "discount": safe_float(item.discount_amount),
-                "saleType": item.fbr_sale_type,
+                "saleType": item.fbr_sale_type or "Goods at standard rate (default)",
                 "sroItemSerialNo": item.fbr_sro_item_sno or "",
             }
         )
@@ -136,7 +132,7 @@ def build_fbr_payload(doc):
         "buyerNTNCNIC": doc.tax_id or "",
         "buyerBusinessName": doc.customer or "",
         "buyerAddress": buyer_address,
-        "buyerProvince": buyer_province,
+        "buyerProvince": buyer_province or "Punjab",
         "invoiceRefNo": doc.name,
         "scenarioId": doc.fbr_scenario_id or "",
         "buyerRegistrationType": doc.fbr_tax_payer_type or "Unregistered",

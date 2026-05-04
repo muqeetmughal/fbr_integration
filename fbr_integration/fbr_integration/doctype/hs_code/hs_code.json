@@ -30,7 +30,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-04 16:46:24.349456",
+ "modified": "2026-05-04 23:54:04.081790",
  "modified_by": "Administrator",
  "module": "FBR Integration",
  "name": "HS Code",
@@ -51,6 +51,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "search_fields": "hs_code,hs_code_detail",
  "sort_field": "modified",
  "sort_order": "DESC",
