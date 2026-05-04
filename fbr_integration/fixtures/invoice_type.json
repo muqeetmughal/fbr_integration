@@ -1,22 +1,30 @@
 [
-  {
-    "doctype": "Invoice Type",
-    "name": "Sale Invoice",
-    "Invoice Type": "Sale Invoice"
-  },
-  {
-    "doctype": "Invoice Type",
-    "name": "Credit Note",
-    "Invoice Type": "Credit Note"
-  },
-  {
-    "doctype": "Invoice Type",
-    "name": "Debit Note",
-    "Invoice Type": "Debit Note"
-  },
-  {
-    "doctype": "Invoice Type",
-    "name": "STWH",
-    "Invoice Type": "STWH"
-  }
+ {
+  "docstatus": 0,
+  "doctype": "Invoice Type",
+  "invoice_type": "Sale Invoice",
+  "modified": "2026-05-04 18:54:31.971029",
+  "name": "Sale Invoice"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Invoice Type",
+  "invoice_type": "Credit Note",
+  "modified": "2026-05-04 18:54:31.976113",
+  "name": "Credit Note"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Invoice Type",
+  "invoice_type": "Debit Note",
+  "modified": "2026-05-04 18:54:31.979296",
+  "name": "Debit Note"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Invoice Type",
+  "invoice_type": "STWH",
+  "modified": "2026-05-04 18:54:31.982291",
+  "name": "STWH"
+ }
 ]

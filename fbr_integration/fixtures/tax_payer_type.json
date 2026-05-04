@@ -1,22 +1,30 @@
 [
-  {
-    "doctype": "Tax Payer Type",
-    "name": "Registered",
-    "Tax Payer Type": "Registered"
-  },
-  {
-    "doctype": "Tax Payer Type",
-    "name": "Unregistered",
-    "Tax Payer Type": "Unregistered"
-  },
-  {
-    "doctype": "Tax Payer Type",
-    "name": "Unregistered Distributor",
-    "Tax Payer Type": "Unregistered Distributor"
-  },
-  {
-    "doctype": "Tax Payer Type",
-    "name": "Retail Consumer",
-    "Tax Payer Type": "Retail Consumer"
-  }
+ {
+  "docstatus": 0,
+  "doctype": "Tax Payer Type",
+  "modified": "2026-05-04 18:54:34.122642",
+  "name": "Registered",
+  "tax_payer_type": "Registered"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Tax Payer Type",
+  "modified": "2026-05-04 18:54:34.127334",
+  "name": "Unregistered",
+  "tax_payer_type": "Unregistered"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Tax Payer Type",
+  "modified": "2026-05-04 18:54:34.130890",
+  "name": "Unregistered Distributor",
+  "tax_payer_type": "Unregistered Distributor"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Tax Payer Type",
+  "modified": "2026-05-04 18:54:34.134399",
+  "name": "Retail Consumer",
+  "tax_payer_type": "Retail Consumer"
+ }
 ]

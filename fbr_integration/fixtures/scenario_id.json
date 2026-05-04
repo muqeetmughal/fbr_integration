@@ -1,170 +1,226 @@
 [
-  {
-    "doctype": "Scenario ID",
-    "name": "SN001",
-    "scenario_id": "SN001",
-    "scenario_detail": "Goods at Standard Rate to Registered Buyers"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN002",
-    "scenario_id": "SN002",
-    "scenario_detail": "Goods at Standard Rate to Unregistered Buyers"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN003",
-    "scenario_id": "SN003",
-    "scenario_detail": "Sale of Steel (Melted and Re-Rolled)"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN004",
-    "scenario_id": "SN004",
-    "scenario_detail": "Sale by Ship Breakers"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN005",
-    "scenario_id": "SN005",
-    "scenario_detail": "Reduced Rate Sale"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN006",
-    "scenario_id": "SN006",
-    "scenario_detail": "Exempt Goods Sale"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN007",
-    "scenario_id": "SN007",
-    "scenario_detail": "Zero Rated Sale"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN008",
-    "scenario_id": "SN008",
-    "scenario_detail": "Sale of 3rd Schedule Goods"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN009",
-    "scenario_id": "SN009",
-    "scenario_detail": "Cotton Spinners Purchase from Cotton Ginners (Textile Sector)"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN010",
-    "scenario_id": "SN010",
-    "scenario_detail": "Mobile Operators Add Sales (Telecom Sector)"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN011",
-    "scenario_id": "SN011",
-    "scenario_detail": "Toll Manufacturing Sale by Steel Sector"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN012",
-    "scenario_id": "SN012",
-    "scenario_detail": "Sale of Petroleum products"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN013",
-    "scenario_id": "SN013",
-    "scenario_detail": "Electricity Supply to Retailers"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN014",
-    "scenario_id": "SN014",
-    "scenario_detail": "Sale of Gas to CNG Stations"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN015",
-    "scenario_id": "SN015",
-    "scenario_detail": "Sale of Mobile Phones"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN016",
-    "scenario_id": "SN016",
-    "scenario_detail": "Processing / Conversion of Goods"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN017",
-    "scenario_id": "SN017",
-    "scenario_detail": "Sale of Goods where FED is Charged in ST Mode"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN018",
-    "scenario_id": "SN018",
-    "scenario_detail": "Sale of Services where FED is Charged in ST Mode"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN019",
-    "scenario_id": "SN019",
-    "scenario_detail": "Sale of Services"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN020",
-    "scenario_id": "SN020",
-    "scenario_detail": "Sale of Electric Vehicles"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN021",
-    "scenario_id": "SN021",
-    "scenario_detail": "Sale of Cement /Concrete Block"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN022",
-    "scenario_id": "SN022",
-    "scenario_detail": "Sale of Potassium Chlorate"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN023",
-    "scenario_id": "SN023",
-    "scenario_detail": "Sale of CNG"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN024",
-    "scenario_id": "SN024",
-    "scenario_detail": "Goods Sold that are Listed in SRO 297(1)/2023"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN025",
-    "scenario_id": "SN025",
-    "scenario_detail": "Drugs Sold at Fixed ST Rate Under Serial 81 of Eighth Schedule Table 1"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN026",
-    "scenario_id": "SN026",
-    "scenario_detail": "Sale to End Consumer by Retailers"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN027",
-    "scenario_id": "SN027",
-    "scenario_detail": "Sale to End Consumer by Retailers"
-  },
-  {
-    "doctype": "Scenario ID",
-    "name": "SN028",
-    "scenario_id": "SN028",
-    "scenario_detail": "Sale to End Consumer by Retailers"
-  }
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.201444",
+  "name": "SN001",
+  "scenario_detail": "Goods at Standard Rate to Registered Buyers",
+  "scenario_id": "SN001"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.206442",
+  "name": "SN002",
+  "scenario_detail": "Goods at Standard Rate to Unregistered Buyers",
+  "scenario_id": "SN002"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.210278",
+  "name": "SN003",
+  "scenario_detail": "Sale of Steel (Melted and Re-Rolled)",
+  "scenario_id": "SN003"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.214253",
+  "name": "SN004",
+  "scenario_detail": "Sale by Ship Breakers",
+  "scenario_id": "SN004"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.218046",
+  "name": "SN005",
+  "scenario_detail": "Reduced Rate Sale",
+  "scenario_id": "SN005"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.221798",
+  "name": "SN006",
+  "scenario_detail": "Exempt Goods Sale",
+  "scenario_id": "SN006"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.225627",
+  "name": "SN007",
+  "scenario_detail": "Zero Rated Sale",
+  "scenario_id": "SN007"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.228759",
+  "name": "SN008",
+  "scenario_detail": "Sale of 3rd Schedule Goods",
+  "scenario_id": "SN008"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.231873",
+  "name": "SN009",
+  "scenario_detail": "Cotton Spinners Purchase from Cotton Ginners (Textile Sector)",
+  "scenario_id": "SN009"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.251620",
+  "name": "SN010",
+  "scenario_detail": "Mobile Operators Add Sales (Telecom Sector)",
+  "scenario_id": "SN010"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.255940",
+  "name": "SN011",
+  "scenario_detail": "Toll Manufacturing Sale by Steel Sector",
+  "scenario_id": "SN011"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.260593",
+  "name": "SN012",
+  "scenario_detail": "Sale of Petroleum products",
+  "scenario_id": "SN012"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.265044",
+  "name": "SN013",
+  "scenario_detail": "Electricity Supply to Retailers",
+  "scenario_id": "SN013"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.269125",
+  "name": "SN014",
+  "scenario_detail": "Sale of Gas to CNG Stations",
+  "scenario_id": "SN014"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.273666",
+  "name": "SN015",
+  "scenario_detail": "Sale of Mobile Phones",
+  "scenario_id": "SN015"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.278708",
+  "name": "SN016",
+  "scenario_detail": "Processing / Conversion of Goods",
+  "scenario_id": "SN016"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.284125",
+  "name": "SN017",
+  "scenario_detail": "Sale of Goods where FED is Charged in ST Mode",
+  "scenario_id": "SN017"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.305137",
+  "name": "SN018",
+  "scenario_detail": "Sale of Services where FED is Charged in ST Mode",
+  "scenario_id": "SN018"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.309433",
+  "name": "SN019",
+  "scenario_detail": "Sale of Services",
+  "scenario_id": "SN019"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.313643",
+  "name": "SN020",
+  "scenario_detail": "Sale of Electric Vehicles",
+  "scenario_id": "SN020"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.317573",
+  "name": "SN021",
+  "scenario_detail": "Sale of Cement /Concrete Block",
+  "scenario_id": "SN021"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.321519",
+  "name": "SN022",
+  "scenario_detail": "Sale of Potassium Chlorate",
+  "scenario_id": "SN022"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.325562",
+  "name": "SN023",
+  "scenario_detail": "Sale of CNG",
+  "scenario_id": "SN023"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.329333",
+  "name": "SN024",
+  "scenario_detail": "Goods Sold that are Listed in SRO 297(1)/2023",
+  "scenario_id": "SN024"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.333308",
+  "name": "SN025",
+  "scenario_detail": "Drugs Sold at Fixed ST Rate Under Serial 81 of Eighth Schedule Table 1",
+  "scenario_id": "SN025"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.353791",
+  "name": "SN026",
+  "scenario_detail": "Sale to End Consumer by Retailers",
+  "scenario_id": "SN026"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.358090",
+  "name": "SN027",
+  "scenario_detail": "Sale to End Consumer by Retailers",
+  "scenario_id": "SN027"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Scenario ID",
+  "modified": "2026-05-04 18:54:32.362283",
+  "name": "SN028",
+  "scenario_detail": "Sale to End Consumer by Retailers",
+  "scenario_id": "SN028"
+ }
 ]

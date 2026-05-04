@@ -1,177 +1,233 @@
 [
-  {
-    "doctype": "SRO Schedule No",
-    "name": "237(I)/2020",
-    "SRO Schedule No": "237(I)/2020"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "327(I)/2008",
-    "SRO Schedule No": "327(I)/2008"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "3rd Schd Table II",
-    "SRO Schedule No": "3rd Schd Table II"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "495(I)/2016",
-    "SRO Schedule No": "495(I)/2016"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "587(I)/2017",
-    "SRO Schedule No": "587(I)/2017"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "590(I)/2017",
-    "SRO Schedule No": "590(I)/2017"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "6th Schd Table I",
-    "SRO Schedule No": "6th Schd Table I"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "6th Schd Table II",
-    "SRO Schedule No": "6th Schd Table II"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "6th Schd Table III",
-    "SRO Schedule No": "6th Schd Table III"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "EIGHTH SCHEDULE Table 1",
-    "SRO Schedule No": "EIGHTH SCHEDULE Table 1"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "EIGHTH SCHEDULE Table 2",
-    "SRO Schedule No": "EIGHTH SCHEDULE Table 2"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "EIGHTH SCHEDULE Table 1",
-    "SRO Schedule No": "EIGHTH SCHEDULE Table 1"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "FIFTH SCHEDULE",
-    "SRO Schedule No": "FIFTH SCHEDULE"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "1450(I)/2021",
-    "SRO Schedule No": "1450(I)/2021"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "NINTH SCHEDULE",
-    "SRO Schedule No": "NINTH SCHEDULE"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "1450(I)/2021",
-    "SRO Schedule No": "1450(I)/2021"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "1579 (1)/2021",
-    "SRO Schedule No": "1579 (1)/2021"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "1604(I)/2021",
-    "SRO Schedule No": "1604(I)/2021"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "01(I)/2022",
-    "SRO Schedule No": "01(I)/2022"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "88(I)/2022",
-    "SRO Schedule No": "88(I)/2022"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "183(I)/2022",
-    "SRO Schedule No": "183(I)/2022"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "SECTION 49",
-    "SRO Schedule No": "SECTION 49"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "Section 4(b)",
-    "SRO Schedule No": "Section 4(b)"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "ICTO",
-    "SRO Schedule No": "ICTO"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "ICTO TABLE I",
-    "SRO Schedule No": "ICTO TABLE I"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "ICTO TABLE II",
-    "SRO Schedule No": "ICTO TABLE II"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "321(I)/2022",
-    "SRO Schedule No": "321(I)/2022"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "1212(I)/2018",
-    "SRO Schedule No": "1212(I)/2018"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "1636(1)/2022",
-    "SRO Schedule No": "1636(1)/2022"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "178(I)/2023",
-    "SRO Schedule No": "178(I)/2023"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "179(I)/2023",
-    "SRO Schedule No": "179(I)/2023"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "297(I)/2023-Table-I",
-    "SRO Schedule No": "297(I)/2023-Table-I"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "297(I)/2023-Table-II",
-    "SRO Schedule No": "297(I)/2023-Table-II"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "581(1)/2024",
-    "SRO Schedule No": "581(1)/2024"
-  },
-  {
-    "doctype": "SRO Schedule No",
-    "name": "3rd Schedule goods",
-    "SRO Schedule No": "3rd Schedule goods"
-  }
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.868732",
+  "name": "237(I)/2020",
+  "sro_schedule_no": "237(I)/2020"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.873386",
+  "name": "327(I)/2008",
+  "sro_schedule_no": "327(I)/2008"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.876873",
+  "name": "3rd Schd Table II",
+  "sro_schedule_no": "3rd Schd Table II"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.880906",
+  "name": "495(I)/2016",
+  "sro_schedule_no": "495(I)/2016"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.901544",
+  "name": "587(I)/2017",
+  "sro_schedule_no": "587(I)/2017"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.905692",
+  "name": "590(I)/2017",
+  "sro_schedule_no": "590(I)/2017"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.909685",
+  "name": "6th Schd Table I",
+  "sro_schedule_no": "6th Schd Table I"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.913685",
+  "name": "6th Schd Table II",
+  "sro_schedule_no": "6th Schd Table II"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.917680",
+  "name": "6th Schd Table III",
+  "sro_schedule_no": "6th Schd Table III"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.925489",
+  "name": "EIGHTH SCHEDULE Table 2",
+  "sro_schedule_no": "EIGHTH SCHEDULE Table 2"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.952807",
+  "name": "EIGHTH SCHEDULE Table 1",
+  "sro_schedule_no": "EIGHTH SCHEDULE Table 1"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.956461",
+  "name": "FIFTH SCHEDULE",
+  "sro_schedule_no": "FIFTH SCHEDULE"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.963302",
+  "name": "NINTH SCHEDULE",
+  "sro_schedule_no": "NINTH SCHEDULE"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.972701",
+  "name": "1450(I)/2021",
+  "sro_schedule_no": "1450(I)/2021"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.975716",
+  "name": "1579 (1)/2021",
+  "sro_schedule_no": "1579 (1)/2021"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.978594",
+  "name": "1604(I)/2021",
+  "sro_schedule_no": "1604(I)/2021"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.981560",
+  "name": "01(I)/2022",
+  "sro_schedule_no": "01(I)/2022"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:33.984447",
+  "name": "88(I)/2022",
+  "sro_schedule_no": "88(I)/2022"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:34.004407",
+  "name": "183(I)/2022",
+  "sro_schedule_no": "183(I)/2022"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:34.008455",
+  "name": "SECTION 49",
+  "sro_schedule_no": "SECTION 49"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:34.013090",
+  "name": "Section 4(b)",
+  "sro_schedule_no": "Section 4(b)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:34.017578",
+  "name": "ICTO",
+  "sro_schedule_no": "ICTO"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:34.021682",
+  "name": "ICTO TABLE I",
+  "sro_schedule_no": "ICTO TABLE I"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:34.025738",
+  "name": "ICTO TABLE II",
+  "sro_schedule_no": "ICTO TABLE II"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:34.029582",
+  "name": "321(I)/2022",
+  "sro_schedule_no": "321(I)/2022"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:34.033720",
+  "name": "1212(I)/2018",
+  "sro_schedule_no": "1212(I)/2018"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:34.053615",
+  "name": "1636(1)/2022",
+  "sro_schedule_no": "1636(1)/2022"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:34.057793",
+  "name": "178(I)/2023",
+  "sro_schedule_no": "178(I)/2023"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:34.061805",
+  "name": "179(I)/2023",
+  "sro_schedule_no": "179(I)/2023"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:34.065681",
+  "name": "297(I)/2023-Table-I",
+  "sro_schedule_no": "297(I)/2023-Table-I"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:34.069170",
+  "name": "297(I)/2023-Table-II",
+  "sro_schedule_no": "297(I)/2023-Table-II"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:34.072933",
+  "name": "581(1)/2024",
+  "sro_schedule_no": "581(1)/2024"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "SRO Schedule No",
+  "modified": "2026-05-04 18:54:34.076993",
+  "name": "3rd Schedule goods",
+  "sro_schedule_no": "3rd Schedule goods"
+ }
 ]
