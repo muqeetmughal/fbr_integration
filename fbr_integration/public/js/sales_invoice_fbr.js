@@ -4,13 +4,12 @@
 
 frappe.ui.form.on("Sales Invoice", {
     refresh(frm) {
-        if (frm.doc.docstatus === 1 && !frm.doc.fbr_invoice_no) {
-            add_fbr_button(frm);
-        }
+
+        add_fbr_button(frm);
         // Do not calculate here, otherwise form becomes "Not Saved" after reload.
     },
 
-  before_save(frm) {
+    before_save(frm) {
         calculate_all_fbr_item_taxes(frm);
     },
 
@@ -195,6 +194,13 @@ function add_fbr_button(frm) {
     // if (frm.__fbr_button_added) return;
     // frm.__fbr_button_added = true;
 
+    if (frm.doc.fbr_invoice_no) {
+
+        return
+
+    }
+
+
     const btn = frm.add_custom_button(__("Send to FBR"), function () {
         if (frm.doc.fbr_invoice_no) {
             frappe.msgprint({
@@ -210,50 +216,49 @@ function add_fbr_button(frm) {
             return;
         }
 
-        frappe.confirm(__("Are you sure you want to send this invoice to FBR?"), function () {
-            frappe.call({
-                method: "fbr_integration.fbr_integration.api.handler.send_to_fbr_si",
-                args: {
-                    name: frm.doc.name
-                },
-                freeze: true,
-                freeze_message: __("Sending invoice to FBR..."),
-                callback(r) {
-                    const resp = r.message;
+        frappe.call({
+            method: "fbr_integration.fbr_integration.api.handler.send_to_fbr_si",
+            args: {
+                name: frm.doc.name
+            },
+            freeze: true,
+            freeze_message: __("Sending invoice to FBR..."),
+            callback(r) {
+                const resp = r.message;
 
-                    if (!resp) {
-                        frappe.msgprint({
-                            title: __("Error"),
-                            indicator: "red",
-                            message: __("No response from server")
-                        });
-                        return;
-                    }
-
-                    if (resp.success === false) {
-                        frappe.msgprint({
-                            title: __("FBR Error"),
-                            indicator: "red",
-                            message: `<pre>${frappe.utils.escape_html(resp.error || "Unknown error")}</pre>`
-                        });
-                        return;
-                    }
-
+                if (!resp) {
                     frappe.msgprint({
-                        title: __("Invoice Sent"),
-                        indicator: "green",
-                        message: `
+                        title: __("Error"),
+                        indicator: "red",
+                        message: __("No response from server")
+                    });
+                    return;
+                }
+
+                if (resp.success === false) {
+                    frappe.msgprint({
+                        title: __("FBR Error"),
+                        indicator: "red",
+                        message: `<pre>${frappe.utils.escape_html(resp.error || "Unknown error")}</pre>`
+                    });
+                    return;
+                }
+
+                frappe.msgprint({
+                    title: __("Invoice Sent"),
+                    indicator: "green",
+                    message: `
                             <div style="font-size:14px; line-height:1.6;">
                                 <p>🟢 <b>Invoice submitted successfully.</b></p>
                                 <p><b>FBR Invoice No:</b> ${resp.invoice_no || ""}</p>
                             </div>
                         `
-                    });
+                });
 
-                    frm.reload_doc();
-                }
-            });
+                frm.reload_doc();
+            }
         });
+
     });
 
     btn.removeClass("btn-default").addClass("btn-danger");

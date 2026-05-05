@@ -248,6 +248,6 @@ fixtures = [
     "SRO Schedule No",
     "SRO Item SNo",
     "FBR UoM",
-    "Buyer Province",
+    "FBR Province",
     
     ]

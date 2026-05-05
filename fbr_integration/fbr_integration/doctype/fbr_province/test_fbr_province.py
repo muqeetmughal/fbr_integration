@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestBuyerProvince(FrappeTestCase):
+class TestFBRProvince(FrappeTestCase):
 	pass

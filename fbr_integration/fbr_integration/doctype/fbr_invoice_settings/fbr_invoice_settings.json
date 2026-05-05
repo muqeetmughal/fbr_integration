@@ -6,6 +6,8 @@
  "engine": "InnoDB",
  "field_order": [
   "enabled",
+  "company_tax_id",
+  "seller_province",
   "column_break_dodg",
   "ssl_applied",
   "section_break_kqlz",
@@ -85,12 +87,27 @@
    "fieldname": "sandbox",
    "fieldtype": "Small Text",
    "label": "Sandbox"
+  },
+  {
+   "fieldname": "company_tax_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Company Tax Id (NTN/CNC)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "seller_province",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Seller Province",
+   "options": "FBR Province",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2025-12-04 13:48:05.275406",
+ "modified": "2026-05-05 01:36:35.692914",
  "modified_by": "Administrator",
  "module": "FBR Integration",
  "name": "FBR Invoice Settings",
@@ -107,6 +124,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
