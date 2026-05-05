@@ -1,14 +1,13 @@
 [project]
 name = "fbr_integration"
 authors = [
-    { name = "G2Virtu Software Solution Provider Lahore Pakistan", email = "info@g2virtu.com"}
+    { name = "Infintrix Technologies Software Solution Provider Lahore Pakistan", email = "muqeetmughal786@gmail.com"}
 ]
 description = "FBR integration is the process of connecting a business's transactional systems, such as Point of Sale (POS) or accounting software, directly to the Federal Board of Revenue (FBR) of Pakistan's central database."
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
 dependencies = [
-    "frappe>=15.0.0,<=16.0.0",
     "qrcode"
 ]
 
@@ -17,5 +16,7 @@ requires = ["flit_core >=3.4,<4"]
 build-backend = "flit_core.buildapi"
 
 # These dependencies are only installed when developer mode is enabled
+[tool.bench.frappe-dependencies]
+frappe = ">=15.0.0 <=16.0.0"
 [tool.bench.dev-dependencies]
 # package_name = "~=1.1.0"

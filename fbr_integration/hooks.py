@@ -1,14 +1,13 @@
 app_name = "fbr_integration"
 app_title = "FBR Integration"
-app_publisher = "G2Virtu Software Solution Provider Lahore Pakistan"
+app_publisher = "Infintrix Technologies Software Solution Provider Lahore Pakistan"
 app_description = "FBR integration is the process of connecting a business\'s transactional systems, such as Point of Sale (POS) or accounting software, directly to the Federal Board of Revenue (FBR) of Pakistan\'s central database."
-app_email = "info@g2virtu.com"
+app_email = "muqeetmughal786@gmail.com "
 app_license = "MIT"
-source_link = "https://github.com/ggraza/fbr_integration"
+source_link = "https://github.com/muqeetmughal/fbr_integration"
 app_logo_url = "/assets/fbr_integration/images/fbr_integration.svg"
 
 
-develop_version = "14.x.x-develop"
 
 # Includes in <head>
 # ------------------
